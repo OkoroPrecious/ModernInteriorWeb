@@ -1,0 +1,363 @@
+/* @media only screen and (min-width: 480px) {
+  .home-page {
+    width: 100%;
+    background-size: 200px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  ul a {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .logo {
+    margin-left: 12rem;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .logo {
+    margin-left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+} */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+  background-image: url(/images/design1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 3%;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: rgba(177, 177, 177, 0.753);
+  position: fixed;
+  /* margin-bottom: 50px; */
+}
+
+.header-links {
+  margin-right: 30px;
+}
+
+.header-links ul a {
+  padding: 10px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: white;
+  margin-top: 3px;
+  display: inline;
+  text-decoration: unset;
+  cursor: pointer;
+}
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-links ul a:hover {
+  color: black;
+  text-decoration: unset;
+}
+
+.home-page {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1542089363-bba089ffaa25?ixlib=rb-1.2.1&dl=s-o-c-i-a-l-c-u-t-EwQhB7yNGOU-unsplash.jpg&w=2400&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 250px;
+}
+.home h1 {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+.home p {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+.home button {
+  margin-top: 20px;
+  height: 60px;
+  width: 140px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.project {
+  /* height: 100vh; */
+  width: 100%;
+  /* background-color: grey; */
+  background-color: grey;
+  text-align: center;
+}
+
+.project h2 {
+  padding: 20px;
+  font-size: 50px;
+}
+
+.project-list {
+  width: 90%;
+  margin: 0 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  margin: 10px 20px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+
+.card-content {
+  position: relative;
+  top: 30px;
+}
+
+.card img {
+  height: 250px;
+  width: 350px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  /* background-color: black; */
+  background-color: rgba(177, 177, 177, 0.753);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 550px;
+}
+
+.footer-links p {
+  margin-right: 10px;
+  position: relative;
+  top: 30px;
+  /* left: 450px; */
+}
+
+.copy {
+  position: relative;
+  top: 50px;
+}
+
+@media screen and (max-width: 567px) {
+  .logo {
+    margin-left: 3%;
+  }
+
+  .logo h2 {
+    font-size: 20px;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(177, 177, 177, 0.753);
+    position: fixed;
+    /* margin-bottom: 50px; */
+  }
+
+  .header-links {
+    margin-right: 30px;
+  }
+
+  .header-links ul a {
+    padding: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+    display: inline;
+    text-decoration: unset;
+    cursor: pointer;
+  }
+
+  .header-links ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .header-links ul a:hover {
+    color: black;
+    text-decoration: unset;
+  }
+
+  .home-page {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1542089363-bba089ffaa25?ixlib=rb-1.2.1&dl=s-o-c-i-a-l-c-u-t-EwQhB7yNGOU-unsplash.jpg&w=2400&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+  }
+  .home h1 {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+  }
+
+  .home p {
+    font-size: 15px;
+    margin: 0;
+    color: white;
+  }
+
+  .home button {
+    margin-top: 20px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .home button:hover {
+    color: black;
+    font-weight: bold;
+  }
+
+  .project {
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: grey; */
+    background-color: grey;
+    text-align: center;
+  }
+
+  .project h2 {
+    padding: 20px;
+    font-size: 40px;
+  }
+
+  .project-list {
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .card img {
+    height: 250px;
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .card-content {
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 150px;
+    /* background-color: black; */
+    background-color: rgba(177, 177, 177, 0.753);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+  }
+
+  .footer-links p {
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+    /* left: 450px; */
+  }
+
+  .copy {
+    position: relative;
+    top: 50px;
+  }
+}

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.about-page {
+  margin: 0;
+}
+
+.service-page {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/service1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo a {
+  margin-left: 3%;
+  text-decoration: none;
+  color: black;
+}
+.logo a:hover {
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: rgba(177, 177, 177, 0.753);
+  position: relative;
+  z-index: 2;
+}
+
+.header-links {
+  margin-right: 30px;
+}
+
+.header-links ul a {
+  padding: 10px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: white;
+  margin-top: 3px;
+  display: inline;
+  text-decoration: unset;
+  cursor: pointer;
+}
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.header-links ul a:hover {
+  color: black;
+  text-decoration: unset;
+}
+
+.our-service {
+  width: 500px;
+  height: 210px;
+  padding: 33px;
+  background-color: grey;
+  margin: 0 auto;
+  margin-top: 10%;
+}
